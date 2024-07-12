@@ -42,7 +42,7 @@ def download_file(url, path):
 if __name__ == '__main__':
 
     # Set this to True to skip downloading models that already exist
-    skip_existing = True
+    skip_existing = False
 
     # This can be hardcoded manually if needed
     comfyUI_path = os.path.dirname(os.getcwd())
